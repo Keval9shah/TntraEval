@@ -1,0 +1,104 @@
+@import url("https://rsms.me/inter/inter.css");
+body{
+  margin: 30px;
+  font-family: Inter;
+}
+form{
+  border-radius: 7px;
+  margin: 50px auto;
+  margin-bottom: 0;
+  max-width: 600px;
+  background-color: #e3eaef;
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+label{
+  line-height: 22px;
+  font-size: 14px;
+  color: #68737d;
+  font-weight: 600;
+}
+.desc{
+  margin: 0;
+  font-size: 12px;
+  color: #9caab1;
+  margin-left: 28px;
+}
+input[type='checkbox']{
+  margin-right: 8px;
+  height: 14px;
+  width: 14px;
+}
+.compartment{
+  padding: 20px;
+  padding-bottom: 0;
+}
+.input-wrapper{
+  justify-content: space-between;
+  padding: 8px;
+  max-width: 400px;
+}
+.input-wrapper,.child-wrapper{
+  display: flex;
+  align-items: start;
+}
+select{
+  padding: 0 10px;
+  border-radius: 3px;
+  border: 1px solid #9caab1;
+  color: #68737d;
+  outline: none;
+  width: 180px;
+  height: 30px;
+}
+input[type='text']{
+  outline: none;
+  width: 140px;
+}
+h4{
+  margin: 0;
+  margin-top: 15px;
+}
+.m-btm{
+  margin-bottom: 20px;
+}
+.text-label{
+  width: 100px;
+}
+button{
+  outline: none;
+  border: none;
+  background-color: #68737d;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 2px;
+  margin-top: 10px;
+  float: right;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgb(178, 178, 178);
+  transition: all 0.3s linear;
+}
+button:hover{
+  background-color: #474d52;
+}
+label.fail-alert{
+  line-height: 16px;
+  width: 150px;
+  font-size: 12px;
+  color: rgb(175, 84, 84);
+  /* position: relative;
+  top: 14px;
+  left: -80px; */
+  display: inline-block;
+}
+.flx{
+  display: flex;
+  flex-direction: column;
+}
+.ageSelector{
+  padding: 0;
+  width: 150px;
+  height: 22px;
+  color: black;
+}

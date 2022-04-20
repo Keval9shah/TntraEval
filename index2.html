@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data</title>
+  <style>
+    @import url("https://rsms.me/inter/inter.css");
+    body{
+      margin: 30px;
+      font-family: Inter;
+    }
+    h4,table{
+      margin: auto;
+    }
+    h4{
+      width: fit-content;
+      margin-bottom: 18px;
+    }
+    table,th,td{
+      border-collapse: collapse;
+      border: 1px solid black;
+      padding: 5px 8px;
+    }
+    th{
+      text-align: start;
+    }
+  </style>
+</head>
+<body>
+  <div class="data">
+    <h4>Data</h4>
+    <div class="table parent">
+      <table>
+        <tbody>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+          </tr>
+          <tr>
+            <td id="firstName"></td>
+            <td id="lastName"></td>
+          </tr>
+          <tr>
+            <th>Age</th>
+            <th>Email</th>
+          </tr>
+          <tr>
+            <td id="age"></td>
+            <td id="email"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script2.js"></script>
+</body>
+</html>
