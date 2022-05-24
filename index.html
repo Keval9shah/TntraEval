@@ -1,151 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1000 Farmacies</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- <p id="p">hello dear</p> -->
-    <form action="index2.html" id="basic-form">
-      <h4>Name</h4>
-      <div class="child-wrapper">
-        <label class="text-label" for="fname">First Name</label>
-        <div class="flx">
-          <input name="firstName" type="text" id="fname" placeholder="Keval" />
-        </div>
-        <label class="text-label" style="margin-left: 20px" for="lname"
-          >Last Name</label
-        >
-        <div class="flx">
-          <input type="text" name="lastName" id="lname" placeholder="Shah" />
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1000 Farmacies</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- <p id="p">hello dear</p> -->
+  <form action="index2.html" id="basic-form">
+    <h4>Name</h4>
+    <div class="child-wrapper">
+      <label class="text-label" for="fname">First Name</label>
+      <div class="flx">
+        <input name="firstName" type="text" id="fname" placeholder="Keval" />
       </div>
-      <h4>Details</h4>
-      <div class="child-wrapper m-btm">
-        <label class="text-label" for="age">Age</label>
+      <label class="text-label" style="margin-left: 20px" for="lname">Last Name</label>
+      <div class="flx">
+        <input type="text" name="lastName" id="lname" placeholder="Shah" />
+      </div>
+    </div>
+    <h4>Details</h4>
+    <div class="child-wrapper m-btm">
+      <label class="text-label" for="age">Age</label>
+      <div class="flx">
+        <select class="ageSelector" name="age" id="age">
+          <option value="15-30">15-24</option>
+          <option value="30-60">25-65</option>
+          <option value="60+">65+</option>
+        </select>
+      </div>
+      <label class="text-label" style="margin-left: 20px" for="email">Email</label>
+      <div class="flx">
+        <input name="email" type="text" id="email" placeholder="abc@example.com" />
+      </div>
+    </div>
+    <div class="child-wrapper">
+      <input type="checkbox" name="" id="configuration" checked /><label for="configuration">NEXT-DAY
+        CONFIGURATION</label>
+    </div>
+    <p class="desc">Set Next-day Pick-up time</p>
+    <div class="compartment">
+      <div class="input-wrapper">
+        <div class="child-wrapper">
+          <input type="checkbox" name="" id="sunday" /><label for="sunday">Sunday</label>
+        </div>
         <div class="flx">
-          <select class="ageSelector" name="age" id="age">
-            <option value="15-30">15-24</option>
-            <option value="30-60">25-65</option>
-            <option value="60+">65+</option>
+          <select name="sunday" class="sunday" disabled>
+            <option value="">-Select Pick-up Time-</option>
           </select>
         </div>
-        <label class="text-label" style="margin-left: 20px" for="email"
-          >Email</label
-        >
+      </div>
+      <div class="input-wrapper">
+        <div class="child-wrapper">
+          <input type="checkbox" name="" id="monday" />
+          <label for="monday">Monday</label>
+        </div>
         <div class="flx">
-          <input
-            name="email"
-            type="text"
-            id="email"
-            placeholder="abc@example.com"
-          />
+          <select name="monday" class="monday" disabled>
+            <option value="">-Select Pick-up Time-</option>
+          </select>
         </div>
       </div>
-      <div class="child-wrapper">
-        <input type="checkbox" name="" id="configuration" checked /><label
-          for="configuration"
-          >NEXT-DAY CONFIGURATION</label
-        >
-      </div>
-      <p class="desc">Set Next-day Pick-up time</p>
-      <div class="compartment">
-        <div class="input-wrapper">
-          <div class="child-wrapper">
-            <input type="checkbox" name="" id="sunday" /><label for="sunday"
-              >Sunday</label
-            >
-          </div>
-          <div class="flx">
-            <select name="sunday" class="sunday" disabled>
-              <option value="">-Select Pick-up Time-</option>
-            </select>
-          </div>
+      <div class="input-wrapper">
+        <div class="child-wrapper">
+          <input type="checkbox" name="" id="tuesday" /><label for="tuesday">Tuesday</label>
         </div>
-        <div class="input-wrapper">
-          <div class="child-wrapper">
-            <input type="checkbox" name="" id="monday" />
-            <label for="monday">Monday</label>
-          </div>
-          <div class="flx">
-            <select name="monday" class="monday" disabled>
-              <option value="">-Select Pick-up Time-</option>
-            </select>
-          </div>
-        </div>
-        <div class="input-wrapper">
-          <div class="child-wrapper">
-            <input type="checkbox" name="" id="tuesday" /><label for="tuesday"
-              >Tuesday</label
-            >
-          </div>
-          <div class="flx">
-            <select name="tuesday" class="tuesday" disabled>
-              <option value="">-Select Pick-up Time-</option>
-            </select>
-          </div>
-        </div>
-        <div class="input-wrapper">
-          <div class="child-wrapper">
-            <input type="checkbox" name="" id="wednesday" /><label
-              for="wednesday"
-              >wednesday</label
-            >
-          </div>
-          <div class="flx">
-            <select name="wednesday" class="wednesday" disabled>
-              <option value="">-Select Pick-up Time-</option>
-            </select>
-          </div>
-        </div>
-        <div class="input-wrapper">
-          <div class="child-wrapper">
-            <input type="checkbox" name="" id="thursday" /><label for="thursday"
-              >Thursday</label
-            >
-          </div>
-          <div class="flx">
-            <select name="thursday" class="thursday" disabled>
-              <option value="">-Select Pick-up Time-</option>
-            </select>
-          </div>
-        </div>
-        <div class="input-wrapper">
-          <div class="child-wrapper">
-            <input type="checkbox" name="" id="friday" /><label for="friday"
-              >Friday</label
-            >
-          </div>
-          <div class="flx">
-            <select name="friday" class="friday" disabled>
-              <option value="">-Select Pick-up Time-</option>
-            </select>
-          </div>
-        </div>
-        <div class="input-wrapper">
-          <div class="child-wrapper">
-            <input type="checkbox" name="" id="saturday" /><label for="saturday"
-              >Saturday</label
-            >
-          </div>
-          <div class="flx">
-            <select name="saturday" class="saturday" disabled>
-              <option value="">-Select Pick-up Time-</option>
-            </select>
-          </div>
+        <div class="flx">
+          <select name="tuesday" class="tuesday" disabled>
+            <option value="">-Select Pick-up Time-</option>
+          </select>
         </div>
       </div>
-      <button type="submit">Submit</button>
-    </form>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
-    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+      <div class="input-wrapper">
+        <div class="child-wrapper">
+          <input type="checkbox" name="" id="wednesday" /><label for="wednesday">wednesday</label>
+        </div>
+        <div class="flx">
+          <select name="wednesday" class="wednesday" disabled>
+            <option value="">-Select Pick-up Time-</option>
+          </select>
+        </div>
+      </div>
+      <div class="input-wrapper">
+        <div class="child-wrapper">
+          <input type="checkbox" name="" id="thursday" /><label for="thursday">Thursday</label>
+        </div>
+        <div class="flx">
+          <select name="thursday" class="thursday" disabled>
+            <option value="">-Select Pick-up Time-</option>
+          </select>
+        </div>
+      </div>
+      <div class="input-wrapper">
+        <div class="child-wrapper">
+          <input type="checkbox" name="" id="friday" /><label for="friday">Friday</label>
+        </div>
+        <div class="flx">
+          <select name="friday" class="friday" disabled>
+            <option value="">-Select Pick-up Time-</option>
+          </select>
+        </div>
+      </div>
+      <div class="input-wrapper">
+        <div class="child-wrapper">
+          <input type="checkbox" name="" id="saturday" /><label for="saturday">Saturday</label>
+        </div>
+        <div class="flx">
+          <select name="saturday" class="saturday" disabled>
+            <option value="">-Select Pick-up Time-</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="jQuery.js"></script>
+  <script src="jQueryValidator.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
