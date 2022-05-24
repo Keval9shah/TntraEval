@@ -1,4 +1,5 @@
 # TntraEval
 
 Evaluation round at Tntra
-<a href="https://keval9shah.github.io/TntraEval/">Website Link</a>
+<br>
+<a target="_blank" href="https://keval9shah.github.io/TntraEval/">Website Link</a>
